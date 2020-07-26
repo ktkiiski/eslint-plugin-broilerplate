@@ -1,0 +1,17 @@
+# Exclude code editor preference configuration
+/.editorconfig
+
+# Exclude Visual Studio Code setting files
+/.vscode
+
+# Exclude specs
+/spec/
+
+# Ignore packed npm packages
+*.tgz
+
+# Ignore OS X index files
+.DS_Store
+
+# GIT configuration
+.gitignore
