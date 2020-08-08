@@ -101,6 +101,16 @@ module.exports = {
         prop: 'ignore',
       },
     ],
+    // Stricter import sorting to achieve consistent/deterministic ordering
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
+    'import/order': [
+      'error',
+      {
+        'groups': [['builtin', 'external', 'internal']],
+        'newlines-between': 'never',
+        'alphabetize': { order: 'asc' },
+      },
+    ],
   },
   overrides: [
     {
