@@ -125,6 +125,8 @@ module.exports = {
         'global-require': 'off',
         // TypeScript strict typing system replaces this rule
         'react/require-default-props': 'off',
+        // TypeScript already checks undefined declarations
+        'react/jsx-no-undef': 'off',
       },
     },
   ],
