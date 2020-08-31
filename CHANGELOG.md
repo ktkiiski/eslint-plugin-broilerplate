@@ -5,7 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Unreleased
+## 2.1.0 - 2020-08-31
+### Changed
+- **Rule change:** Disable `react/jsx-no-undef` in TypeScript files
+
+## 2.0.0 - 2020-08-08
 ### Changed
 - **Rule change:** Stricter import ordering, including alphabetic ordering (auto-fixable)
 
